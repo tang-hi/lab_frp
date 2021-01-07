@@ -1,0 +1,10 @@
+[Unit]
+Description=frps service
+After=network.target syslog.target
+Wants=network.target
+[Service]
+Type=simple
+#启动服务的命令（此处写你的frps的实际安装目录）
+ExecStart= sh /home/tang/frp/autostart.sh
+[Install]
+WantedBy=multi-user.target
