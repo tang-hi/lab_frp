@@ -7,8 +7,8 @@ Type=simple
 User=nobody
 Restart=on-failure
 RestartSec=5s
-ExecStart=/home/lixiangyu/lab_frp/frpc -c  /home/lixiangyu/lab_frp/frpc.ini
-ExecReload=/home/lixiangyu/lab_frp/frpc reload -c /home/lixiangyu/lab_frp/frpc.ini
+ExecStart=/home/tikboa/lab_frp/frpc -c  /home/tikboa/lab_frp/frpc.ini
+ExecReload=/home/tikboa/lab_frp/frpc reload -c /home/tikboa/lab_frp/frpc.ini
 
 [Install]
 WantedBy=multi-user.target

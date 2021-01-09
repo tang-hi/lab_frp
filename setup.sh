@@ -10,9 +10,9 @@
 #sudo cp ./frpc.ini /etc/frp/
 
 
-sudo cp ./frpc_lxy.service /lib/systemd/system/
+sudo cp ./frpc_zpf.service /lib/systemd/system/
 
-sudo systemctl start frpc_lxy
+sudo systemctl start frpc_zpf
 
 #make it start after reboot
-sudo systemctl enable frpc_lxy
+sudo systemctl enable frpc_zpf
